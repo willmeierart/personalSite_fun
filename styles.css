@@ -1,0 +1,284 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home {
+    background-image: url(images/dino.jpg);
+    background-size: 50%;
+}
+
+.banner {
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-image: url(images/webheader.jpg);
+    bac
+}
+
+header {
+    box-sizing: border-box;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 11px;
+    font-size: 60px;
+    background-size: 150%;
+    z-index: 4;
+    text-shadow: red 12px 0;
+}
+
+nav {
+    box-sizing: border-box;
+    position: absolute;
+    top: 95px;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    text-shadow: none;
+    font-size: 20px;
+    font-style: normal;
+    color: white;
+    background-color: black;
+}
+
+.col-1-4 {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 25%;
+    margin: -3px;
+    padding: 0;
+    background-color: black;
+}
+
+.col-1-4:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    font-size: 30px;
+    bottom: 0;
+    padding-left: 2%;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 8px solid black;
+    border-top: 8px solid black;
+    z-index: 4;
+    background-size: 100%;
+}
+
+.main {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    margin-left: -50%;
+
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+    color: gold;
+    font-size: 180px;
+}
+
+.bigass-text {
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    margin: 5% 5% 0 0;
+    width: 100%;
+
+}
+
+.artwork:hover {
+    color: red;
+    text-shadow: blue 0 4px;
+    background-color: white;
+    padding: 0 10px;
+}
+
+.writing:hover {
+    color: white;
+    text-shadow: red 0 4px;
+    background-color: blue;
+    padding: 0 90px;
+}
+
+.about:hover {
+    color: blue;
+    text-shadow: white 0 4px;
+    background-color: red;
+    padding: 0 160px;
+}
+
+.biocontain{
+  position:absolute;
+  top:10%;
+  background: rgba(10, 150, 200, 0.5);
+  background: linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  background: -moz-linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  z-index: 3;
+  left:-8px;
+  width:105%;
+  height:50%;
+}
+.biotxt {
+    overflow: scroll;
+    background: none;
+    position: absolute;
+    width: 80%;
+    top: 15%;
+    left: 10%;
+    z-index: 5;
+    color: springgreen;
+    font-size: 25px;
+    text-align: justify;
+    text-shadow: blue 0 1px;
+
+}
+.writingcontain{
+  position:absolute;
+  top:0%;
+  background: rgba(10, 150, 200, 0.5);
+  background: linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  background: -moz-linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  z-index: 3;
+  left:-8px;
+  width:105%;
+  height:80%;
+}
+
+.writing-link {
+    position: absolute;
+    width: 95%;
+    top: 0;
+    padding: 10px;
+    text-align: justify;
+    color: black;
+    font-size: 200px;
+    line-height: 200px;
+    z-index: 4;
+}
+
+.writing-link:hover {
+    color: springgreen;
+}
+
+.imgbg {
+    position: fixed;
+    overflow: scroll;
+    margin-left: -8px;
+    width: 105%;
+    z-index: 2;
+}
+
+#ghostride {
+    display: inline-block;
+    position: absolute;
+    bottom: 10px;
+    align-items: center;
+    z-index: 3;
+}
+
+#biopg {
+    background-image: url(images/ghostride.gif);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.artworkcontain{
+  position:absolute;
+  top:0%;
+  background: rgba(10, 150, 200, 0.5);
+  background: linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  background: -moz-linear-gradient(rgba(10, 150, 200, 0.9), rgba(255, 255, 255, 0));
+  z-index: 2;
+  left:-8px;
+  width:105%;
+  height:50%;
+}
+
+#artworkbody {
+    background-image: url(images/picnicgradient2.jpg);
+    background-size: 100%;
+    width: 100%;
+}
+
+.container {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    margin-left: -360px;
+    z-index: 3;
+}
+
+#slider {
+    display: block;
+    width: 720px;
+    height: 400px;
+    overflow: hidden;
+    border: 5px solid white;
+    border-radius: 8px;
+
+}
+
+#slider .slides {
+    display: block;
+    width: 9000px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+#slider .slide {
+    float: left;
+    list-style-type: none;
+    width: 720px;
+    height: 400px;
+}
+
+.slide img {
+    width: 720px;
+    height: 400px;
+}
+
+#artstatement {
+    color: red;
+    text-shadow: blue 0 1px;
+    position: fixed;
+    top: 70%;
+    text-align: center;
+    width: 70%;
+    margin: 0 15%;
+}
+
+#artstatement a:hover {
+    color: springgreen;
+    text-shadow: none;
+}
+
+#artistSite {
+    position: fixed;
+    bottom: -9%;
+}
+
+#artistSite:hover {
+    color: springgreen;
+}
+
+#siteTeaser {
+    display: block;
+    background-color: white;
+}
